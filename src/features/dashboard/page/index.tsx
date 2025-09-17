@@ -16,13 +16,15 @@ export const DashboardPage = () => {
           <Tile size="xsmall">
             <TileHeader title="Earnings Today" />
             <TileContent>
-              <span>$105.99</span>
+              <span className="font-bold text-5xl">$105.99</span>
             </TileContent>
           </Tile>
 
           <Tile size="xsmall">
             <TileHeader title="Best Selling Item Today" />
-            <TileContent>Cheese Pizza</TileContent>
+            <TileContent>
+              <span className="font-bold text-5xl">Cheese Pizza</span>
+            </TileContent>
           </Tile>
         </div>
         <Tile size="full">
